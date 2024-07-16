@@ -10,9 +10,9 @@ import part3.Server.provider.ServiceProvider;
 import part3.Server.server.RpcServer;
 
 /**
- * @author wxx
+ * @author iven
  * @version 1.0
- * @create 2024/2/26 14:01
+ * @create 2024/7/26 14:01
  */
 @AllArgsConstructor
 public class NettyRPCRPCServer implements RpcServer {

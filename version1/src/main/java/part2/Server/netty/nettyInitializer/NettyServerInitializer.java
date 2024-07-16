@@ -14,9 +14,9 @@ import part2.Server.netty.handler.NettyRPCServerHandler;
 import part2.Server.provider.ServiceProvider;
 
 /**
- * @author wxx
+ * @author iven
  * @version 1.0
- * @create 2024/2/26 16:15
+ * @create 2024/7/26 16:15
  */
 @AllArgsConstructor
 public class NettyServerInitializer extends ChannelInitializer<SocketChannel> {

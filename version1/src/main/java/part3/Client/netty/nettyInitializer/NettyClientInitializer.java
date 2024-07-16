@@ -12,9 +12,9 @@ import io.netty.handler.codec.serialization.ObjectEncoder;
 import part3.Client.netty.handler.NettyClientHandler;
 
 /**
- * @author wxx
+ * @author iven
  * @version 1.0
- * @create 2024/2/26 17:26
+ * @create 2024/7/26 17:26
  */
 public class NettyClientInitializer extends ChannelInitializer<SocketChannel> {
     @Override

@@ -4,9 +4,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author wxx
+ * @author iven
  * @version 1.0
- * @create 2024/2/16 17:35
+ * @create 2024/7/16 17:35
  */
 //本地服务存放器
 public class ServiceProvider {

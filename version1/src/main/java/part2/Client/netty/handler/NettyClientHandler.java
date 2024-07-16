@@ -6,9 +6,9 @@ import io.netty.util.AttributeKey;
 import part2.common.Message.RpcResponse;
 
 /**
- * @author wxx
+ * @author iven
  * @version 1.0
- * @create 2024/2/26 17:29
+ * @create 2024/7/26 17:29
  */
 public class NettyClientHandler extends SimpleChannelInboundHandler<RpcResponse> {
     @Override

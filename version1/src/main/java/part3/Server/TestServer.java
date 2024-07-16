@@ -10,9 +10,9 @@ import part3.Server.server.RpcServer;
 import part3.Server.server.impl.SimpleRPCRPCServer;
 
 /**
- * @author wxx
+ * @author iven
  * @version 1.0
- * @create 2024/2/11 19:39
+ * @create 2024/7/11 19:39
  */
 
 public class TestServer {

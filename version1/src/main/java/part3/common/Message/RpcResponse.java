@@ -6,9 +6,9 @@ import lombok.Data;
 import java.io.Serializable;
 
 /**
- * @author wxx
+ * @author iven
  * @version 1.0
- * @create 2024/2/1 19:18
+ * @create 2024/7/1 19:18
  */
 @Data
 @Builder

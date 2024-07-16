@@ -11,9 +11,9 @@ import java.io.ObjectOutputStream;
 import java.net.Socket;
 
 /**
- * @author wxx
+ * @author iven
  * @version 1.0
- * @create 2024/2/4 18:31
+ * @create 2024/7/4 18:31
  */
 public class IOClient {
     //这里负责底层与服务端的通信，发送request，返回response

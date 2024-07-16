@@ -9,7 +9,7 @@ import java.net.InetSocketAddress;
 import java.util.List;
 
 /**
- * @author wxx
+ * @author iven
  * @version 1.0
  * @create 2024/5/3 21:41
  */
@@ -18,6 +18,7 @@ public class ZKServiceCenter implements ServiceCenter{
     private CuratorFramework client;
     //zookeeper根路径节点
     private static final String ROOT_PATH = "MyRPC";
+
 
     //负责zookeeper客户端的初始化，并与zookeeper服务端进行连接
     public ZKServiceCenter(){
@@ -32,6 +33,12 @@ public class ZKServiceCenter implements ServiceCenter{
         this.client.start();
         System.out.println("zookeeper 连接成功");
     }
+    /**
+     * 根据服务名（接口名）返回地址
+     * @param serviceName 服务名
+     * @return InetSocketAddress 返回服务地址
+     * @throws Exception 异常情况
+     */
     //根据服务名（接口名）返回地址
     @Override
     public InetSocketAddress serviceDiscovery(String serviceName) {

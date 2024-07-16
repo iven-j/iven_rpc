@@ -8,9 +8,9 @@ import part1.Server.server.impl.SimpleRPCRPCServer;
 import part1.Server.provider.ServiceProvider;
 
 /**
- * @author wxx
+ * @author iven
  * @version 1.0
- * @create 2024/2/11 19:39
+ * @create 2024/7/11 19:39
  */
 public class TestServer {
     public static void main(String[] args) {

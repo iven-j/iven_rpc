@@ -11,9 +11,9 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
 /**
- * @author wxx
+ * @author iven
  * @version 1.0
- * @create 2024/2/26 16:40
+ * @create 2024/7/26 16:40
  * 因为是服务器端，我们知道接受到请求格式是RPCRequest
  * Object类型也行，强制转型就行
  */

@@ -14,9 +14,9 @@ import java.lang.reflect.Method;
 import java.net.Socket;
 
 /**
- * @author wxx
+ * @author iven
  * @version 1.0
- * @create 2024/2/14 17:39
+ * @create 2024/7/14 17:39
  */
 @AllArgsConstructor
 public class WorkThread implements Runnable{

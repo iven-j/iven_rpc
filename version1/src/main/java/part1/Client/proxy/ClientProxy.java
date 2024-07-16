@@ -11,9 +11,9 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 
 /**
- * @author wxx
+ * @author iven
  * @version 1.0
- * @create 2024/2/6 16:49
+ * @create 2024/7/6 16:49
  */
 @AllArgsConstructor
 public class ClientProxy implements InvocationHandler {
