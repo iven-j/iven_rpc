@@ -17,7 +17,7 @@ import part1.Client.netty.nettyInitializer.NettyClientInitializer;
 import java.net.InetSocketAddress;
 
 /**
- * @author wxx
+ * @author iven
  * @version 1.0
  * @create 2024/5/2 19:40
  */

@@ -3,9 +3,9 @@ package part1.common.serializer.mySerializer;
 import java.io.*;
 
 /**
- * @author wxx
+ * @author iven
  * @version 1.0
- * @create 2024/6/2 22:36
+ * @create 2024/7/2 22:36
  */
 public class ObjectSerializer implements Serializer {
     //利用Java io 对象 -》字节数组

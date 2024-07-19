@@ -6,9 +6,9 @@ import part1.common.Message.RpcResponse;
 import part1.common.Message.RpcRequest;
 
 /**
- * @author wxx
+ * @author iven
  * @version 1.0
- * @create 2024/6/2 22:31
+ * @create 2024/7/2 22:31
  */
 public class JsonSerializer implements Serializer {
     @Override

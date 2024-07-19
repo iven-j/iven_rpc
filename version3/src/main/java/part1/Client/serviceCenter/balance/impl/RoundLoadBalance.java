@@ -5,9 +5,9 @@ import part1.Client.serviceCenter.balance.LoadBalance;
 import java.util.List;
 
 /**
- * @author wxx
+ * @author iven
  * @version 1.0
- * @create 2024/6/19 21:21
+ * @create 2024/7/19 21:21
  * 轮询 负载均衡
  */
 public class RoundLoadBalance implements LoadBalance {

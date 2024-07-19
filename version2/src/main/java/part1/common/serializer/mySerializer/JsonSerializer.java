@@ -12,11 +12,30 @@ import part1.common.Message.RpcResponse;
  */
 public class JsonSerializer implements Serializer {
 
+    /**
+ * 将对象序列化为字节数组的方法    。
+ * 该方法使用JSON格式将传入的对象转换为字节数组    。
+ *
+ * @param obj 需要序列化的对象，预期为任意类型的对象
+ * @return byte[] 返回序列化后的字节数组，其中包含了传入对象的JSON表示形式
+ */
+
     @Override
     public byte[] serialize(Object obj) {
         byte[] bytes = JSONObject.toJSONBytes(obj);
         return bytes;
     }
+    /**
+ * 根据消息类型反序列化字节数组为相应的请求或响应对象    。
+ * 此方法处理两种消息类型：请求（RpcRequest）和响应（RpcResponse）    。
+ *
+ * @param bytes 要反序列化的字节数组
+ * @param messageType 消息类型，用于决定如何反序列化字节数组
+ * @return Object 反序列化后的请求或响应对象
+ *
+ * @throws RuntimeException 当不支持的消息类型被传递时抛出
+ */
+
     @Override
     public Object deserialize(byte[] bytes, int messageType) {
         Object obj = null;

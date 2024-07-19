@@ -12,7 +12,7 @@ import part2.common.serializer.myCode.MyEncoder;
 import part2.common.serializer.mySerializer.JsonSerializer;
 
 /**
- * @author wxx
+ * @author iven
  * @version 1.0
  * @create 2024/2/26 16:15
  */

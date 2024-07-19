@@ -9,9 +9,9 @@ import part1.common.serializer.mySerializer.Serializer;
 import java.util.List;
 
 /**
- * @author wxx
+ * @author iven
  * @version 1.0
- * @create 2024/6/2 22:24
+ * @create 2024/7/2 22:24
  * 按照自定义的消息格式解码数据
  */
 public class MyDecoder extends ByteToMessageDecoder {

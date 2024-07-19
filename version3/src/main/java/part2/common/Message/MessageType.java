@@ -3,9 +3,9 @@ package part2.common.Message;
 import lombok.AllArgsConstructor;
 
 /**
- * @author wxx
+ * @author iven
  * @version 1.0
- * @create 2024/6/2 22:29
+ * @create 2024/7/2 22:29
  */
 @AllArgsConstructor
 public enum MessageType {

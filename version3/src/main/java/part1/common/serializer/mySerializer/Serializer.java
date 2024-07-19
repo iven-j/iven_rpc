@@ -2,9 +2,9 @@ package part1.common.serializer.mySerializer;
 
 
 /**
- * @author wxx
+ * @author iven
  * @version 1.0
- * @create 2024/6/2 22:31
+ * @create 2024/7/2 22:31
  */
 public interface Serializer {
     // 把对象序列化成字节数组

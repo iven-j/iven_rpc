@@ -6,9 +6,9 @@ import java.util.List;
 import java.util.Random;
 
 /**
- * @author wxx
+ * @author iven
  * @version 1.0
- * @create 2024/6/19 21:20
+ * @create 2024/7/19 21:20
  * 随机 负载均衡
  */
 public class RandomLoadBalance implements LoadBalance {

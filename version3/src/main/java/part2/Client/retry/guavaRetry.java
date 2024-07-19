@@ -9,9 +9,9 @@ import java.util.Objects;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author wxx
+ * @author iven
  * @version 1.0
- * @create 2024/6/20 19:28
+ * @create 2024/7/20 19:28
  */
 public class guavaRetry {
     private RpcClient rpcClient;

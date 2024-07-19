@@ -5,9 +5,9 @@ import part2.Client.serviceCenter.balance.LoadBalance;
 import java.util.*;
 
 /**
- * @author wxx
+ * @author iven
  * @version 1.0
- * @create 2024/6/19 21:16
+ * @create 2024/7/19 21:16
  * 一致性哈希算法 负载均衡
  */
 public class ConsistencyHashBalance implements LoadBalance {
