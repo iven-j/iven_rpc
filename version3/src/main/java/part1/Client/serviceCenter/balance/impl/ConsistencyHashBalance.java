@@ -45,6 +45,7 @@ public class ConsistencyHashBalance implements LoadBalance {
         init(serviceList);
         int hash = getHash(node);
         Integer key = null;
+        // 使用哈希值获取哈希环中的子集，即大于或等于当前哈希值的所有键值对
         SortedMap<Integer, String> subMap = shards.tailMap(hash);
         if (subMap.isEmpty()) {
             key = shards.lastKey();
